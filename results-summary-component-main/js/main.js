@@ -1,8 +1,6 @@
 import data from './data.js';
 const cardsContainer = document.querySelector('.cards__container');
 
-console.log(data);
-
 const cards = data
 	.map((el) => {
 		return `<div class="card ${
