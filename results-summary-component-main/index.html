@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="./sass/styles.css" />
+		<title>Results summary component</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="card__wrapper">
+				<div class="right__side">
+					<h1 class="title">Your Result</h1>
+					<div class="circle">
+						<h2 class="score">76</h2>
+						<p class="out__of">of 100</p>
+					</div>
+					<div>
+						<h3 class="great">Great</h3>
+						<p class="desc">
+							You scored higher than 65% of the people who have taken these
+							tests.
+						</p>
+					</div>
+				</div>
+				<div class="left__side">
+					<h1 class="title">Summary</h1>
+					<div class="cards__container"></div>
+					<button class="continue__button">Continue</button>
+				</div>
+			</div>
+		</div>
+		<script type="module" src="./js/main.js"></script>
+	</body>
+</html>
